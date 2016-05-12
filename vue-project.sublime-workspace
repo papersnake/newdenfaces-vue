@@ -52,26 +52,10 @@
 	"buffers":
 	[
 		{
-			"file": "vue-project.sublime-project",
-			"settings":
-			{
-				"buffer_size": 115,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "src/main.js",
 			"settings":
 			{
-				"buffer_size": 449,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/App.vue",
-			"settings":
-			{
-				"buffer_size": 312,
+				"buffer_size": 496,
 				"line_ending": "Unix"
 			}
 		},
@@ -84,58 +68,26 @@
 			}
 		},
 		{
-			"file": "src/api/index.js",
+			"file": "src/components/Navbar.vue",
 			"settings":
 			{
-				"buffer_size": 247,
+				"buffer_size": 7231,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "src/vuex/actions.js",
+			"file": "/D/node/newdenfaces/server.js",
 			"settings":
 			{
-				"buffer_size": 327,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/api/characteapi.js",
-			"settings":
-			{
-				"buffer_size": 0,
+				"buffer_size": 11163,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "src/vuex/store.js",
+			"file": "build/webpack.base.conf.js",
 			"settings":
 			{
-				"buffer_size": 256,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/vuex/modules/FooterStore.js",
-			"settings":
-			{
-				"buffer_size": 317,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/vuex/types.js",
-			"settings":
-			{
-				"buffer_size": 110,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/components/Home.vue",
-			"settings":
-			{
-				"buffer_size": 133,
+				"buffer_size": 2235,
 				"line_ending": "Unix"
 			}
 		},
@@ -143,48 +95,16 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 559,
+				"buffer_size": 706,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "build/webpack.base.conf.js",
+			"file": "src/App.vue",
 			"settings":
 			{
-				"buffer_size": 2087,
+				"buffer_size": 416,
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": ".gitignore",
-			"settings":
-			{
-				"buffer_size": 117,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "node_modules/webpack/lib/optimize/CommonsChunkPlugin.js",
-			"settings":
-			{
-				"buffer_size": 5857,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "dist/index.html",
-			"settings":
-			{
-				"buffer_size": 537,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/D/node/newdenfaces/gulpfile.babel.js",
-			"settings":
-			{
-				"buffer_size": 4159,
-				"line_ending": "Windows"
 			}
 		}
 	],
@@ -236,10 +156,32 @@
 	],
 	"file_history":
 	[
+		"/D/node/tmp/test.js",
+		"/D/node/tmp/node_modules/lodash/groupBy.js",
+		"/D/node/vuejs-github-explorer/src/js/components/github-file-explorer/index.js",
+		"/D/node/vuejs-github-explorer/src/js/app.js",
+		"/D/web/wx2share/Application/Home/Controller/AuthController.class.php",
+		"/D/node/tmp/te.js",
+		"/D/node/tmp/node_modules/lodash/_createAggregator.js",
+		"/D/node/vue-frist/src/App.vue",
+		"/D/node/vue-frist/src/components/Footer.vue",
+		"/D/node/vue-frist/src/api/index.js",
+		"/D/node/vue-frist/src/vuex/actions.js",
+		"/D/node/vue-frist/src/vuex/store.js",
+		"/D/node/vue-frist/src/vuex/modules/FooterStore.js",
+		"/D/node/vue-frist/vue-project.sublime-project",
+		"/D/node/vue-frist/src/vuex/types.js",
+		"/D/node/vue-frist/src/components/Home.vue",
+		"/D/node/vue-frist/index.html",
+		"/D/node/vue-frist/build/webpack.base.conf.js",
 		"/D/node/vue-frist/.gitignore",
+		"/D/node/vue-frist/README.md",
+		"/D/node/newdenfaces/server.js",
+		"/D/node/vue-frist/node_modules/webpack/lib/optimize/CommonsChunkPlugin.js",
+		"/D/node/vue-frist/dist/index.html",
+		"/D/node/newdenfaces/gulpfile.babel.js",
 		"/D/node/vue-frist/src/actions/FooterActions.js",
 		"/D/node/vue-frist/src/api/characteapi.js",
-		"/D/node/vue-frist/src/vuex/modules/FooterStore.js",
 		"/D/node/vue-frist/src/stores/FooterStore.js",
 		"/D/node/vue-frist/dist/static/js/vendor.9e643b6c87cc182a0198.js",
 		"/D/node/vue-frist/dist/static/js/vendor.bundle.79014891b540d4653114.js",
@@ -248,16 +190,10 @@
 		"/D/node/vue-frist/node_modules/webpack/bin/config-optimist.js",
 		"/D/node/vue-frist/dist/vender.bundle.js",
 		"/D/node/newdenfaces/app/components/Home.js",
-		"/D/node/newdenfaces/server.js",
 		"/D/node/vuejs-github-explorer/src/index.html",
-		"/D/node/vuejs-github-explorer/src/js/components/github-file-explorer/index.js",
 		"/D/node/vuejs-github-explorer/src/js/components/github-file-explorer/template.html",
 		"/D/node/vue-frist/src/components/Hello.vue",
-		"/D/node/vue-frist/src/components/Home.vue",
-		"/D/node/vue-frist/src/App.vue",
 		"/D/node/vue-frist/src/main.js",
-		"/D/node/vue-frist/src/components/Footer.vue",
-		"/D/node/vue-frist/index.html",
 		"/D/node/vue-frist/build/webpack.dev.conf.js",
 		"/D/node/vue-frist/build/utils.js",
 		"/D/node/vue-frist/config.js",
@@ -266,15 +202,12 @@
 		"/D/node/vue-frist/bower_components/bootstrap/less/type.less",
 		"/D/node/newdenfaces/views/index.html",
 		"/D/node/vue-frist/dist/static/css/app.6f74ff1838dbec54afb01d276671e49b.css",
-		"/D/node/newdenfaces/gulpfile.babel.js",
 		"/D/node/newdenfaces/public/js/bundle.js",
-		"/D/node/vuejs-github-explorer/src/js/app.js",
 		"/D/node/vue-frist/src/components/Footer.js",
 		"/D/node/vuejs-github-explorer/gulpfile.js",
 		"/D/node/vue-frist/package.json",
 		"/D/node/vue-frist/build/dev-server.js",
 		"/D/web/wx2share/Application/Home/Conf/config.php",
-		"/D/node/tmp/test.js",
 		"/D/node/newdenfaces/app/components/App.js",
 		"/D/node/tmp/asnyctest.js",
 		"/D/web/wx2share/Application/Common/Conf/config.php",
@@ -357,6 +290,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"v-link",
+			"a to",
+			"Link",
+			"HomeStats",
+			"'",
+			"className",
 			"CommonsChunkPlugin",
 			"exports",
 			"createBrowserHistory",
@@ -381,6 +320,11 @@
 		"regex": false,
 		"replace_history":
 		[
+			"href",
+			"a v-link",
+			"a",
+			"\"",
+			"class"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -391,160 +335,24 @@
 	"groups":
 	[
 		{
-			"selected": 13,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "vue-project.sublime-project",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 115,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								105,
-								105
-							]
-						],
-						"settings":
-						{
-							"editorconfig": true,
-							"ensure_newline_at_eof_on_save": true,
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
-							"trim_trailing_white_space_on_save": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 16,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "src/main.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 449,
+						"buffer_size": 496,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								196,
-								196
-							]
-						],
-						"settings":
-						{
-							"editorconfig": true,
-							"ensure_newline_at_eof_on_save": true,
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
-							"trim_trailing_white_space_on_save": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "src/App.vue",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 312,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								239,
-								207
-							]
-						],
-						"settings":
-						{
-							"editorconfig": true,
-							"ensure_newline_at_eof_on_save": true,
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/Vue Syntax Highlight/vue.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
-							"trim_trailing_white_space_on_save": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "src/components/Footer.vue",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1467,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1434,
-								1434
-							]
-						],
-						"settings":
-						{
-							"editorconfig": true,
-							"ensure_newline_at_eof_on_save": true,
-							"origin_encoding": "UTF-8",
-							"syntax": "Packages/Vue Syntax Highlight/vue.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
-							"trim_trailing_white_space_on_save": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "src/api/index.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 247,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								143,
-								150
+								338,
+								338
 							]
 						],
 						"settings":
@@ -565,223 +373,54 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "src/vuex/actions.js",
+					"buffer": 1,
+					"file": "src/components/Footer.vue",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 327,
+						"buffer_size": 1467,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								142,
-								142
+								1253,
+								1260
 							]
 						],
 						"settings":
 						{
 							"editorconfig": true,
 							"ensure_newline_at_eof_on_save": true,
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
-							"trim_trailing_white_space_on_save": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "src/api/characteapi.js",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"editorconfig": true,
-							"ensure_newline_at_eof_on_save": true,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
-							"trim_trailing_white_space_on_save": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "src/vuex/store.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 256,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								167,
-								167
-							]
-						],
-						"settings":
-						{
-							"editorconfig": true,
-							"ensure_newline_at_eof_on_save": true,
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
-							"trim_trailing_white_space_on_save": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "src/vuex/modules/FooterStore.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 317,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								316,
-								316
-							]
-						],
-						"settings":
-						{
-							"editorconfig": true,
-							"ensure_newline_at_eof_on_save": true,
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
-							"trim_trailing_white_space_on_save": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "src/vuex/types.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 110,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								13,
-								32
-							]
-						],
-						"settings":
-						{
-							"editorconfig": true,
-							"ensure_newline_at_eof_on_save": true,
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
-							"trim_trailing_white_space_on_save": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "src/components/Home.vue",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 133,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								133,
-								133
-							]
-						],
-						"settings":
-						{
-							"editorconfig": true,
-							"ensure_newline_at_eof_on_save": true,
-							"origin_encoding": "ASCII",
+							"origin_encoding": "UTF-8",
 							"syntax": "Packages/Vue Syntax Highlight/vue.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true,
 							"trim_trailing_white_space_on_save": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 153.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 12,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 11,
-					"file": "index.html",
+					"buffer": 2,
+					"file": "src/components/Navbar.vue",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 559,
+						"buffer_size": 7231,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								497,
-								497
+								7169,
+								7169
 							]
 						],
 						"settings":
@@ -789,34 +428,64 @@
 							"editorconfig": true,
 							"ensure_newline_at_eof_on_save": true,
 							"is_xml": false,
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"open_with_edit": true,
+							"syntax": "Packages/Vue Syntax Highlight/vue.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true,
 							"trim_trailing_white_space_on_save": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2463.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 12,
-					"file": "build/webpack.base.conf.js",
+					"buffer": 3,
+					"file": "/D/node/newdenfaces/server.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2087,
+						"buffer_size": 11163,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								215,
-								215
+								10698,
+								10709
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 6517.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "build/webpack.base.conf.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2235,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								621,
+								621
 							]
 						],
 						"settings":
@@ -833,92 +502,24 @@
 						"translation.y": 153.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 13,
-					"file": ".gitignore",
+					"buffer": 5,
+					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 117,
+						"buffer_size": 706,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								117,
-								117
-							]
-						],
-						"settings":
-						{
-							"editorconfig": true,
-							"ensure_newline_at_eof_on_save": true,
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
-							"trim_trailing_white_space_on_save": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 14,
-					"file": "node_modules/webpack/lib/optimize/CommonsChunkPlugin.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5857,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								157,
-								173
-							]
-						],
-						"settings":
-						{
-							"editorconfig": true,
-							"ensure_newline_at_eof_on_save": true,
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
-							"trim_trailing_white_space_on_save": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 13,
-					"type": "text"
-				},
-				{
-					"buffer": 15,
-					"file": "dist/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 537,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
+								391,
+								391
 							]
 						],
 						"settings":
@@ -936,38 +537,42 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 15,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 16,
-					"file": "/D/node/newdenfaces/gulpfile.babel.js",
+					"buffer": 6,
+					"file": "src/App.vue",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4159,
+						"buffer_size": 416,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								770,
-								685
+								184,
+								184
 							]
 						],
 						"settings":
 						{
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"is_xml": false,
 							"origin_encoding": "ASCII",
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"syntax": "Packages/Vue Syntax Highlight/vue.tmLanguage",
 							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 459.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 14,
+					"stack_index": 6,
 					"type": "text"
 				}
 			]
@@ -1016,7 +621,7 @@
 	"project": "vue-project.sublime-project",
 	"replace":
 	{
-		"height": 46.0
+		"height": 62.0
 	},
 	"save_all_on_build": true,
 	"select_file":

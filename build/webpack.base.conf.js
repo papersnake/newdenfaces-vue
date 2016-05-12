@@ -22,8 +22,17 @@ module.exports = {
     filename: '[name].js'
   },
   plugins: [
-    new webpack.optimize.CommonsChunkPlugin({name: "vendor"})
+    new webpack.optimize.CommonsChunkPlugin({
+      name: "vendor",
+      minChunks : Infinity
+    }),
+    new webpack.ProvidePlugin({
+      // io: "socket.io",
+    })
   ],
+  externals: {
+    'io': 'socket.io'
+  },
   resolve: {
     extensions: ['', '.js', '.vue'],
     fallback: [path.join(__dirname, '../node_modules')],
