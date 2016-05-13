@@ -16,5 +16,8 @@ export default {
   },
   getTwoCharacters: () => {
     return Vue.resource(host + '/api/characters').get()
+  },
+  vote: (winner, loser) => {
+    return Vue.resource(host + '/api/characters').update({winner: winner, loser: loser})
   }
 }

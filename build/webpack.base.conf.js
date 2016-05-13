@@ -8,7 +8,8 @@ var dependencies = [
   'vue',
   'vuex',
   'vue-router',
-  'vue-resource'
+  'vue-resource',
+  'lodash'
 ];
 
 module.exports = {

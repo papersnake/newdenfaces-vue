@@ -1,4 +1,4 @@
-import { GETTWOCHARACTERSSUCCESS, GETTWOCHARACTERSFAIL } from '../types'
+import { GETTWOCHARACTERSSUCCESS, GETTWOCHARACTERSFAIL, VOTEFAIL } from '../types'
 
 const state = {
   characters: []
@@ -11,6 +11,9 @@ const mutations = {
 
   [GETTWOCHARACTERSFAIL] (state, err) {
    // toastr.error(err)
+  },
+  [VOTEFAIL] (state, err) {
+    console.log(err)
   }
 }
 

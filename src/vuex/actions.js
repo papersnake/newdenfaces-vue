@@ -30,3 +30,13 @@ export const getTwoCharacters = ({ dispatch, state }) => {
     dispatch(types.GETTWOCHARACTERSFAIL, err)
   })
 }
+
+export const vote = ({ dispatch }, winner, loser) => {
+  console.log('winner: ' + winner)
+  console.log('loser: ' + loser)
+  Api.vote(winner, loser).then(response => {
+    getTwoCharacters({ dispatch })
+  }, err => {
+    dispatch(types.VOTEFAIL, err)
+  })
+}
