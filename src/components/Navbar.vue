@@ -20,13 +20,13 @@
           <div class="tri invert"></div>
         </span>
         NEF
-        <span class="badge badge-up badge-danger">2</span>
+        <span class="badge badge-up badge-danger">{{ state.onlineUsers }}</span>
       </a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <form ref="searchForm" class="navbar-form navbar-left animated">
         <div class="input-group">
-          <input type="text" class="form-control" placeholder="" value="" onChange="" />
+          <input type="text" class="form-control" placeholder="{{ state.totalCharacters + ' characters' }}" value="" onChange="" />
           <span class="input-group-btn">
             <button class="btn btn-default" onClick=""><span class="glyphicon glyphicon-search"></span></button>
           </span>
@@ -158,13 +158,29 @@
 </template>
 <script>
 /* global io */
+import { getCharacterCount, updateOnlineUsers } from '../vuex/actions'
 export default {
 
+  vuex: {
+    getters: {
+      state: ({NavbarStore}) => NavbarStore
+      // totalCharacters: ({NavbarStore}) => NavbarStore.totalCharacters,
+      /*
+      onlineUsers: ({NavbarStore}) => {
+        return NavbarStore.onlineUsers
+      }*/
+    },
+    actions: {
+      getCharacterCount,
+      updateOnlineUsers
+    }
+  },
   created: function () {
+    this.getCharacterCount()
     const socket = io.connect('http://127.0.0.1:3000/')
-    // console.log(socket)
     socket.on('onlineUsers', (data) => {
       console.log(data)
+      this.updateOnlineUsers(data)
     })
   }
 }

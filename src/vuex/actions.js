@@ -10,3 +10,23 @@ export const getTopCharacters = ({ dispatch, state }) => {
     dispatch(types.GETCHARACTERSFAIL, err)
   })
 }
+
+export const updateOnlineUsers = ({ dispatch, state }, data) => {
+  dispatch(types.UPDATEONLINEUSERS, data)
+}
+
+export const getCharacterCount = ({ dispatch, state }) => {
+  Api.getCharacterCount().then(response => {
+    dispatch(types.GETCHARACTERCOUNTSUCCESS, response.data)
+  }, err => {
+    dispatch(types.GETCHARACTERCOUNTFAIL, err)
+  })
+}
+
+export const getTwoCharacters = ({ dispatch, state }) => {
+  Api.getTwoCharacters().then(response => {
+    dispatch(types.GETTWOCHARACTERSSUCCESS, response.data)
+  }, err => {
+    dispatch(types.GETTWOCHARACTERSFAIL, err)
+  })
+}
