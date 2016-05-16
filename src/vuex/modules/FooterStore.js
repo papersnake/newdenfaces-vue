@@ -1,11 +1,11 @@
-import { GETCHARACTERSUCCESS, GETCHARACTERSFAIL } from '../types'
+import { GETCHARACTERSSUCCESS, GETCHARACTERSFAIL } from '../types'
 
 const state = {
   characters: []
 }
 
 const mutations = {
-  [GETCHARACTERSUCCESS] (state, data) {
+  [GETCHARACTERSSUCCESS] (state, data) {
     state.characters = data.slice(0, 5)
   },
 

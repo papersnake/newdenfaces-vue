@@ -19,5 +19,14 @@ export default {
   },
   vote: (winner, loser) => {
     return Vue.resource(host + '/api/characters').update({winner: winner, loser: loser})
+  },
+  addCharacter: (name, gender) => {
+    return Vue.resource(host + '/api/characters').save({ name: name, gender: gender })
+  },
+  getCharacter: (characterId) => {
+    return Vue.resource(host + '/api/characters/' + characterId).get()
+  },
+  report: (characterId) => {
+    return Vue.resource(host + '/api/report').save({characterId: characterId})
   }
 }

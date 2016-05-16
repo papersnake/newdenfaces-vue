@@ -1,7 +1,8 @@
 import Vue from 'vue'
 import App from './App'
 import Home from './components/Home'
-import Hello from './components/Hello'
+import AddCharacter from './components/AddCharacter'
+import Character from './components/Character'
 
 import VueRouter from 'vue-router'
 import VueResource from 'vue-resource'
@@ -20,8 +21,12 @@ router.map({
   '/': {
     component: Home
   },
-  '/hello': {
-    component: Hello
+  '/add': {
+    component: AddCharacter
+  },
+  '/character/:characterId': {
+    name: 'character',
+    component: Character
   }
 })
 

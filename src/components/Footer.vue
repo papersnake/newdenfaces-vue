@@ -12,7 +12,7 @@
           <h3 class="lead"><strong>Leaderboard</strong> Top 5 Characters</h3>
           <ul class="list-inline">
             <li v-for="character in characters" >
-              <a href="/characters/{{character.characterId}}">
+              <a v-link="{ name: 'character', params: { characterId: character.characterId }}">
                 <img class="thumb-md" :src="createImgUrl(character.characterId)">
               </a>
             </li>

@@ -11,7 +11,7 @@
               <li><strong>Bloodline:</strong> {{ character.bloodline}}</li>
             </ul>
             <h4>
-            <a href=""><strong>{{ character.name }}</strong></a>
+            <a v-link="{name: 'character', params: {characterId: character.characterId}}"><strong>{{ character.name }}</strong></a>
             </h4>
           </div>
         </div>
@@ -40,8 +40,6 @@ export default {
     handClick: function (character) {
       let winner = character.characterId
       let loser = (first(filter(this.state.characters, item => item.characterId !== winner))).characterId
-      console.log(winner)
-      console.log(loser)
       this.vote(winner, loser)
     }
 
