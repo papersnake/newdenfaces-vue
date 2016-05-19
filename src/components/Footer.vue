@@ -11,7 +11,7 @@
         <div class="col-sm-7 hidden-xs">
           <h3 class="lead"><strong>Leaderboard</strong> Top 5 Characters</h3>
           <ul class="list-inline">
-            <li v-for="character in characters" >
+            <li v-for="character in characters" track-by="characterId">
               <a v-link="{ name: 'character', params: { characterId: character.characterId }}">
                 <img class="thumb-md" :src="createImgUrl(character.characterId)">
               </a>
@@ -39,7 +39,7 @@ export default {
     this.getTopCharacters()
   },
   methods: {
-    createImgUrl: function (characterId) {
+    createImgUrl: (characterId) => {
       return 'http://image.eveonline.com/Character/' + characterId + '_128.jpg'
     }
   }

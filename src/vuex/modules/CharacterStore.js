@@ -1,4 +1,6 @@
 import { includes } from 'lodash'
+import toastr from 'toastr'
+
 import {
   GETCHARACTERSUCCESS,
   GETCHARACTERFAIL,
@@ -12,7 +14,7 @@ const state = {
   bloodline: 'TBD',
   gender: 'TBD',
   wins: 0,
-  loses: 0,
+  losses: 0,
   winLossRatio: 0,
   isReported: false
 }
@@ -28,7 +30,7 @@ const mutations = {
   },
 
   [GETCHARACTERFAIL] (state, err) {
-
+    toastr.error(err.message)
   },
 
   [REPORTSUCCESS] (state) {
@@ -37,11 +39,11 @@ const mutations = {
     localData.reports = localData.reports || []
     localData.reports.push(state.characterId)
     window.localStorage.setItem('NEF', JSON.stringify(localData))
-    // toastr.warning('Character has been reported')
+    toastr.warning('Character has been reported')
   },
 
   [REPORTFAIL] (state, err) {
-
+    toastr.error(err.message)
   }
 }
 

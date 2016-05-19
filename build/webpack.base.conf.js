@@ -29,10 +29,12 @@ module.exports = {
     }),
     new webpack.ProvidePlugin({
       // io: "socket.io",
+      // toastr :'toastr'
     })
   ],
   externals: {
-    'io': 'socket.io'
+    'io': 'socket.io',
+    'toastr': 'toastr'
   },
   resolve: {
     extensions: ['', '.js', '.vue'],

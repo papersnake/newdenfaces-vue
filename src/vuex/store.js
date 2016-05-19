@@ -1,15 +1,18 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 
+import middlewares from './middlewares'
 import FooterStore from './modules/FooterStore'
 import NavbarStore from './modules/NavbarStore'
 import HomeStore from './modules/HomeStore'
 import AddCharacterStore from './modules/AddCharacterStore'
 import CharacterStore from './modules/CharacterStore'
+import CharacterListStore from './modules/CharacterListStore'
 
 const debug = process.env.NODE_ENV !== 'production'
 Vue.use(Vuex)
 Vue.config.debug = debug
+Vue.config.warnExpressionErrors = false
 
 export default new Vuex.Store({
   modules: {
@@ -17,6 +20,9 @@ export default new Vuex.Store({
     FooterStore,
     HomeStore,
     AddCharacterStore,
-    CharacterStore
-  }
+    CharacterStore,
+    CharacterListStore
+  },
+  strict: debug,
+  middlewares
 })

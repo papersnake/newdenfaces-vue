@@ -28,5 +28,8 @@ export default {
   },
   report: (characterId) => {
     return Vue.resource(host + '/api/report').save({characterId: characterId})
+  },
+  getCharacters: (url, params) => {
+    return Vue.resource(host + url).get(params)
   }
 }

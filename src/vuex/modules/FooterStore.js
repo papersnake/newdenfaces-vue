@@ -1,3 +1,4 @@
+import toastr from 'toastr'
 import { GETCHARACTERSSUCCESS, GETCHARACTERSFAIL } from '../types'
 
 const state = {
@@ -10,7 +11,7 @@ const mutations = {
   },
 
   [GETCHARACTERSFAIL] (state, err) {
-   // toastr.error(err)
+    toastr.error(err.message)
   }
 }
 

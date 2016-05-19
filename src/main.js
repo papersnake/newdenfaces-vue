@@ -3,12 +3,12 @@ import App from './App'
 import Home from './components/Home'
 import AddCharacter from './components/AddCharacter'
 import Character from './components/Character'
+import CharacterList from './components/Characterlist'
 
 import VueRouter from 'vue-router'
 import VueResource from 'vue-resource'
 
 /* eslint-disable no-new */
-
 Vue.use(VueResource)
 Vue.use(VueRouter)
 
@@ -27,6 +27,19 @@ router.map({
   '/character/:characterId': {
     name: 'character',
     component: Character
+  },
+  '/:category': {
+    component: CharacterList,
+    subRoutes: {
+      '/:race': {
+        component: CharacterList,
+        subRoutes: {
+          '/:bloodline': {
+            component: CharacterList
+          }
+        }
+      }
+    }
   }
 })
 

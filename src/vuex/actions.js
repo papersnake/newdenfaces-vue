@@ -77,3 +77,28 @@ export const report = ({ dispatch }, characterId) => {
     dispatch(types.REPORTFAIL, err)
   })
 }
+
+export const getCharacters = ({ dispatch }, payload) => {
+  let url = '/api/characters/top'
+
+  let params = {
+    race: payload.race,
+    bloodline: payload.bloodline
+  }
+
+  if (payload.category === 'female') {
+    params.gender = 'female'
+  } else if (payload.category === 'male') {
+    params.gender = 'male'
+  }
+
+  if (payload.category === 'shame') {
+    url = '/api/characters/shame'
+  }
+
+  Api.getCharacters(url, params).then(response => {
+    dispatch(types.GETCHARACTERLISTSUCCESS, response.data)
+  }, err => {
+    dispatch(types.GETCHARACTERLISTFAIL, err)
+  })
+}

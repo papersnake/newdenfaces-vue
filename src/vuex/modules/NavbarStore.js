@@ -1,3 +1,4 @@
+import toastr from 'toastr'
 import { UPDATEONLINEUSERS, GETCHARACTERCOUNTSUCCESS, GETCHARACTERCOUNTFAIL } from '../types'
 
 const state = {
@@ -13,7 +14,7 @@ const mutations = {
     state.totalCharacters = data.count
   },
   [GETCHARACTERCOUNTFAIL] (sate, err) {
-    console.log(err)
+    toastr.error(err.message)
   }
 }
 

@@ -37,10 +37,10 @@ export default {
     }
   },
   computed: {
-    backgroundImg: function () {
+    backgroundImg () {
       return 'https://image.eveonline.com/Character/' + this.state.characterId + '_1024.jpg'
     },
-    characterImg: function () {
+    characterImg () {
       return 'https://image.eveonline.com/Character/' + this.state.characterId + '_256.jpg'
     }
   },
