@@ -8,7 +8,7 @@
         <span class="icon-bar"></span>
       </button>
       <a href="/" class="navbar-brand">
-        <span ref="triangles" class="triangles animated ">
+        <span ref="triangles" class="triangles animated" v-bind:class="state.ajaxAnimationClass">
           <div class="tri invert"></div>
           <div class="tri invert"></div>
           <div class="tri"></div>

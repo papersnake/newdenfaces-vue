@@ -15,6 +15,10 @@ export const updateOnlineUsers = ({ dispatch, state }, data) => {
   dispatch(types.UPDATEONLINEUSERS, data)
 }
 
+export const updateAjaxAnimation = ({ dispatch }, className) => {
+  dispatch(types.UPDATEAJAXANIMATION, className)
+}
+
 export const getCharacterCount = ({ dispatch, state }) => {
   Api.getCharacterCount().then(response => {
     dispatch(types.GETCHARACTERCOUNTSUCCESS, response.data)

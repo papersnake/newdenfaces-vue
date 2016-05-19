@@ -1,9 +1,14 @@
 import toastr from 'toastr'
-import { UPDATEONLINEUSERS, GETCHARACTERCOUNTSUCCESS, GETCHARACTERCOUNTFAIL } from '../types'
+import {
+  UPDATEONLINEUSERS,
+  GETCHARACTERCOUNTSUCCESS,
+  GETCHARACTERCOUNTFAIL,
+  UPDATEAJAXANIMATION } from '../types'
 
 const state = {
   onlineUsers: 0,
-  totalCharacters: 0
+  totalCharacters: 0,
+  ajaxAnimationClass: ''
 }
 
 const mutations = {
@@ -15,6 +20,9 @@ const mutations = {
   },
   [GETCHARACTERCOUNTFAIL] (sate, err) {
     toastr.error(err.message)
+  },
+  [UPDATEAJAXANIMATION] (state, className) {
+    state.ajaxAnimationClass = className
   }
 }
 

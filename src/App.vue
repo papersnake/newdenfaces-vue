@@ -16,6 +16,7 @@
 import Footers from './components/Footer'
 import Navbar from './components/Navbar'
 import store from './vuex/store'
+
 export default {
   store,
   components: {

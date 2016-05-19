@@ -8,9 +8,25 @@ import CharacterList from './components/Characterlist'
 import VueRouter from 'vue-router'
 import VueResource from 'vue-resource'
 
+import { updateAjaxAnimation } from './vuex/actions'
+import store from './vuex/store'
+
 /* eslint-disable no-new */
 Vue.use(VueResource)
 Vue.use(VueRouter)
+
+Vue.http.interceptors.push({
+  request (request) {
+    updateAjaxAnimation(store, 'fadeIn')
+    return request
+  },
+  response (reponse) {
+    setTimeout(() => {
+      updateAjaxAnimation(store, 'fadeOut')
+    }, 750)
+    return reponse
+  }
+})
 
 const router = new VueRouter({
   history: true,
