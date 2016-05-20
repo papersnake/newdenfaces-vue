@@ -8,6 +8,7 @@ import HomeStore from './modules/HomeStore'
 import AddCharacterStore from './modules/AddCharacterStore'
 import CharacterStore from './modules/CharacterStore'
 import CharacterListStore from './modules/CharacterListStore'
+import StatsStore from './modules/StatsStore'
 
 const debug = process.env.NODE_ENV !== 'production'
 Vue.use(Vuex)
@@ -21,7 +22,8 @@ export default new Vuex.Store({
     HomeStore,
     AddCharacterStore,
     CharacterStore,
-    CharacterListStore
+    CharacterListStore,
+    StatsStore
   },
   strict: debug,
   middlewares

@@ -31,5 +31,8 @@ export default {
   },
   getCharacters: (url, params) => {
     return Vue.resource(host + url).get(params)
+  },
+  getStats: () => {
+    return Vue.resource(host + '/api/stats').get()
   }
 }

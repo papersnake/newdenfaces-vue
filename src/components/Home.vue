@@ -3,7 +3,7 @@
     <h3 class="text-center">Click on the portrait. Select you favorite.</h3>
     <div class="row">
       <div v-on:click="handClick(character)" v-for="character in state.characters" class="col-xs-6 col-sm-6 col-md-5" v-bind:class="{ 'col-md-offset-1': !$index }">
-        <div class="thumbnail fadeInpu animated">
+        <div class="thumbnail fadeInUp animated">
           <img :src="getbigimgsrc(character.characterId)" alt="">
           <div class="caption text-center">
             <ul class="list-inline">
@@ -42,7 +42,6 @@ export default {
       let loser = (first(filter(this.state.characters, item => item.characterId !== winner))).characterId
       this.vote(winner, loser)
     }
-
   }
 }
 </script>

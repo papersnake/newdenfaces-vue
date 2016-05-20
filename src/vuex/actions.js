@@ -106,3 +106,11 @@ export const getCharacters = ({ dispatch }, payload) => {
     dispatch(types.GETCHARACTERLISTFAIL, err)
   })
 }
+
+export const getStats = ({ dispatch }) => {
+  Api.getStats().then(response => {
+    dispatch(types.GETSTATSSUCCESS, response.data)
+  }, err => {
+    dispatch(types.GETSTATSFAIL, err)
+  })
+}

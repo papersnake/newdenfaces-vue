@@ -4,6 +4,7 @@ import Home from './components/Home'
 import AddCharacter from './components/AddCharacter'
 import Character from './components/Character'
 import CharacterList from './components/Characterlist'
+import Stats from './components/Stats'
 
 import VueRouter from 'vue-router'
 import VueResource from 'vue-resource'
@@ -11,7 +12,6 @@ import VueResource from 'vue-resource'
 import { updateAjaxAnimation } from './vuex/actions'
 import store from './vuex/store'
 
-/* eslint-disable no-new */
 Vue.use(VueResource)
 Vue.use(VueRouter)
 
@@ -43,6 +43,10 @@ router.map({
   '/character/:characterId': {
     name: 'character',
     component: Character
+  },
+  '/stats': {
+    name: 'stats',
+    component: Stats
   },
   '/:category': {
     component: CharacterList,

@@ -34,7 +34,7 @@
       </form>
       <ul class="nav navbar-nav">
         <li><a v-link="'/'">Home</a></li>
-        <li><a href="/stats">Stats</a></li>
+        <li><a v-link="'/stats'">Stats</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Top 100 <span class="caret"></span></a>
           <ul class="dropdown-menu">
