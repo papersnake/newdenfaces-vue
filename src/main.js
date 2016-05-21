@@ -3,7 +3,7 @@ import App from './App'
 import Home from './components/Home'
 import AddCharacter from './components/AddCharacter'
 import Character from './components/Character'
-import CharacterList from './components/Characterlist'
+import CharacterList from './components/CharacterList'
 import Stats from './components/Stats'
 
 import VueRouter from 'vue-router'

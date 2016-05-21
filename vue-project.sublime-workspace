@@ -86,6 +86,14 @@
 				"buffer_size": 1570,
 				"line_ending": "Unix"
 			}
+		},
+		{
+			"file": "src/components/AddCharacter.vue",
+			"settings":
+			{
+				"buffer_size": 2389,
+				"line_ending": "Unix"
+			}
 		}
 	],
 	"build_system": "",
@@ -141,6 +149,8 @@
 	],
 	"file_history":
 	[
+		"/D/node/vuejs-github-explorer/src/js/app.js",
+		"/D/node/vuejs-github-explorer/src/js/components/github-file-explorer/index.js",
 		"/D/node/vue-frist/src/components/Stats.vue",
 		"/D/node/vue-frist/package.json",
 		"/D/node/vue-frist/src/components/Navbar.vue",
@@ -191,10 +201,8 @@
 		"/D/node/vue-frist/src/css/main.less",
 		"/D/node/vue-frist/dist/static/css/app.f7dd97bf364aae16e49328ab88dcf144.css",
 		"/D/node/vue-frist/index.html",
-		"/D/node/vuejs-github-explorer/src/js/components/github-file-explorer/index.js",
 		"/D/node/newdenfaces/README.md",
 		"/D/node/tmp/node_modules/lodash/chunk.js",
-		"/D/node/vuejs-github-explorer/src/js/app.js",
 		"/C/Documents and Settings/Administrator/桌面/1.html",
 		"/D/node/tmp/node_modules/lodash/groupBy.js",
 		"/D/web/wx2share/Application/Home/Controller/AuthController.class.php",
@@ -340,7 +348,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -372,6 +380,40 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/components/AddCharacter.vue",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2389,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2378,
+								2378
+							]
+						],
+						"settings":
+						{
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Vue Syntax Highlight/vue.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 391.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,

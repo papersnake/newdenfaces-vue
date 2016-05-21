@@ -72,6 +72,7 @@ export default {
 
       if (!gender) {
         this.invalidGender()
+        this.$refs.nameTextField.focus()
       }
 
       if (name && gender) {
